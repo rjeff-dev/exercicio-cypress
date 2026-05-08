@@ -62,7 +62,6 @@ describe('Agenda de contatos', () => {
     const email = `teste${Date.now()}@mail.com`
     const telefone = '85999999999'
 
-    // cria
     cy.get('input[placeholder="Nome"]').type(nome)
     cy.get('input[placeholder="E-mail"]').type(email)
     cy.get('input[placeholder="Telefone"]').type(telefone)
